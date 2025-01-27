@@ -1,15 +1,5 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "coding-practice-4a": "./app.js",
-            "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ]
+    "rewrites": [{
+        "source": "/(.*)", "destination": "/"
+    }]
 }
