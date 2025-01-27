@@ -5,6 +5,9 @@
     "main": "app.js",
     "author": "",
     "license": "ISC",
+    "engines": {
+        "node": "18.x"
+    },
     "dependencies": {
         "express": "4.17.1",
         "nodemon": "2.0.7",

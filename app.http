@@ -1,1 +1,1 @@
-GET http://localhost:3000/diagram-data 
+GET http://localhost:3000/ 
